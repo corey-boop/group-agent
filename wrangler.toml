@@ -1,0 +1,17 @@
+name = "industrializing-nebraska-backend"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+GROUP_ENABLED = "false"
+PROGRAM_NUMBER = "+14023832515"
+GROUP_SIDS = "CH095b684d55604a2bafa49276ef183431,CHd8620f3a33d6498daa044945dfb0ed93,CHf726319d5d874efcbb18c2693dc61867"
+XAI_MODEL = "grok-4"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "industrializing-nebraska-state"
+database_id = "b9ca82f7-e404-4240-80e1-30fbaf1d2a16"
+
+# Secrets (wrangler secret put): XAI_API_KEY, TWILIO_AUTH_TOKEN,
+# TWILIO_ACCOUNT_SID, TWILIO_API_KEY_SID, TWILIO_API_KEY_SECRET
